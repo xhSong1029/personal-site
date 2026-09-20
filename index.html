@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="个人主页 · Personal website">
+  <meta name="theme-color" content="#173b53">
+  <title>个人主页 · Personal website</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./data.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">跳转到正文 / Skip to content</a>
+  <header class="header">
+    <a class="brand" id="brand" href="#page-a"><span class="mark" aria-hidden="true">S.</span><span id="brand-name"></span></a>
+    <div class="language" role="group" aria-label="语言 / Language">
+      <button type="button" data-lang="zh" lang="zh-CN">中文</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-lang="en" lang="en">EN</button>
+    </div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar"><p class="nav-label" id="nav-label"></p><nav id="navigation" aria-label="主导航"></nav><div class="sidebar-line" aria-hidden="true"></div></aside>
+    <main id="content" tabindex="-1"></main>
+  </div>
+  <footer><span id="footer-name"></span><span id="footer-label"></span></footer>
+  <noscript>请启用 JavaScript 查看网站。Please enable JavaScript to view this website.</noscript>
+</body>
+</html>
